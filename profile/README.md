@@ -41,7 +41,7 @@
 ## 메인 페이지
 > 개인 및 전체 사용자 피드를 조회하고, 기존에 분석한 결과를 참조할 수 있습니다.
 <p align="center">
-<img src="https://raw.githubusercontent.com/Techeer-11-team-g/Team_G_Backend/main/docs/images/Adobe%20Express%20-%20Screen%20Recording%202026-01-27%20at%205.00.13%20PM.gif" alt="Main Page"/>
+<img src="https://raw.githubusercontent.com/Techeer-11-team-g/Team_G_Backend/main/docs/images/main-page.gif" alt="Main Page"/>
 </p>
 
 ## AI 이미지 분석
