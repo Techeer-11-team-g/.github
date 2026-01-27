@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/Techeer-11-team-g/Team_G_Backend/main/docs/images/Convert%20to%20GIF%20project.gif" alt="Introduction"/>
+  <img src="https://raw.githubusercontent.com/Techeer-11-team-g/Team_G_Backend/main/docs/images/logo.png" width="300" alt="DRESSENSE Logo"/>
 </p>
 
 <h1 align="center">DRESSENSE</h1>
@@ -10,9 +10,10 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/React-18.3-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/TypeScript-5.6-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-3.11.8-3776AB?style=flat-square&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Django-4.2%20LTS-092E20?style=flat-square&logo=django&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OpenSearch-2.11-005EB8?style=flat-square&logo=opensearch&logoColor=white"/>
   <img src="https://img.shields.io/badge/GCP-Deployed-4285F4?style=flat-square&logo=googlecloud&logoColor=white"/>
 </p>
 
@@ -29,6 +30,10 @@
 ---
 
 # 📣 Introduction
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/Techeer-11-team-g/Team_G_Backend/main/docs/images/Convert%20to%20GIF%20project.gif" alt="Introduction"/>
+</p>
 
 ## URL
 > https://www.dressense.store/
@@ -86,6 +91,18 @@
     <th>Technologies</th>
   </tr>
   <tr>
+    <td align="center"><b>Frontend</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+      <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+      <img src="https://img.shields.io/badge/React%20Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
     <td align="center"><b>Backend</b></td>
     <td>
       <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
@@ -124,6 +141,7 @@
     <td align="center"><b>Infrastructure</b></td>
     <td>
       <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
       <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
       <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"/>
       <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
@@ -193,7 +211,8 @@
 # 🚀 Getting Started
 
 ## Prerequisites
-- Python 3.11.8 (pyenv 권장)
+- Node.js 20+ (Frontend)
+- Python 3.11.8 (Backend, pyenv 권장)
 - Docker & Docker Compose
 - GCP Account (Cloud SQL, GCS, Compute Engine)
 
@@ -203,11 +222,19 @@ git clone https://github.com/Techeer-11-team-g/Team_G_Backend.git
 git clone https://github.com/Techeer-11-team-g/Team_G_Frontend.git
 ```
 
-## 2. Environment Setup
+## 2. Frontend Setup
+```bash
+cd Team_G_Frontend
+npm install
+npm run dev
+# http://localhost:5173 에서 실행
+```
+
+## 3. Backend Setup
 ```bash
 cd Team_G_Backend
 cp .env.example .env
-# Edit .env with your API keys and credentials
+# .env 파일에 API 키 및 환경변수 설정
 ```
 
 <details>
@@ -246,14 +273,14 @@ LOKI_URL=http://your-monitoring-server-ip:3100/loki/api/v1/push
 ```
 </details>
 
-## 3. Run with Docker
+## 4. Run with Docker (Backend)
 ```bash
 docker-compose up -d
 docker-compose exec web python manage.py migrate
 docker-compose exec web python manage.py createsuperuser
 ```
 
-## 4. Run Locally (Development)
+## 5. Run Locally (Backend Development)
 ```bash
 # Python 환경 설정
 pyenv install 3.11.8
