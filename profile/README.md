@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Techeer-11-team-g/Team_G_Backend/main/docs/images/logo.png" width="300" alt="DRESSENSE Logo"/>
+<img src="https://raw.githubusercontent.com/Techeer-11-team-g/Team_G_Backend/main/docs/images/Convert%20to%20GIF%20project.gif" alt="Introduction"/>
 </p>
 
 <h1 align="center">DRESSENSE</h1>
@@ -29,10 +29,6 @@
 ---
 
 # 📣 Introduction
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/Techeer-11-team-g/Team_G_Backend/main/docs/images/Convert%20to%20GIF%20project.gif" alt="Introduction"/>
-</p>
 
 ## URL
 > https://www.dressense.store/
