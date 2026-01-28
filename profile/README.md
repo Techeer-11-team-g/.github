@@ -308,7 +308,7 @@ celery -A config worker -l info
         <sub><b>이정원</b></sub>
       </a><br/>
       <sub>Team Leader</sub><br/>
-      <sub>Frontend, Backend</sub>
+      <sub>Frontend, Backend, DevOps</sub>
     </td>
     <td align="center" width="150">
       <a href="https://github.com/Pionia5375">
@@ -316,7 +316,7 @@ celery -A config worker -l info
         <sub><b>이정</b></sub>
       </a><br/>
       <sub>Team Member</sub><br/>
-      <sub>Backend, DevOps</sub>
+      <sub>Frontend ,Backend, DevOps</sub>
     </td>
     <td align="center" width="150">
       <a href="https://github.com/yoonchaerin">
@@ -324,7 +324,7 @@ celery -A config worker -l info
         <sub><b>윤채린</b></sub>
       </a><br/>
       <sub>Team Member</sub><br/>
-      <sub>Backend</sub>
+      <sub>Backend, DevOps</sub>
     </td>
     <td align="center" width="150">
       <a href="https://github.com/kyuho11488/kyuho11488.git">
@@ -340,7 +340,7 @@ celery -A config worker -l info
         <sub><b>노연서</b></sub>
       </a><br/>
       <sub>Team Member</sub><br/>
-      <sub>Backend</sub>
+      <sub>Backend, DevOps</sub>
     </td>
   </tr>
 </table>
