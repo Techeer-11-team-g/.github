@@ -73,7 +73,7 @@
 <img width="100%" src="https://raw.githubusercontent.com/Techeer-11-team-g/Team_G_Backend/main/docs/images/system-architecture.png" alt="System Architecture"/>
 
 # 🔑 ERD
-<img width="100%" src="https://raw.githubusercontent.com/Techeer-11-team-g/Team_G_Backend/main/docs/images/erd.png" alt="ERD"/>
+<img width="849" height="620" alt="image" src="https://github.com/user-attachments/assets/7993edea-7fec-4927-b5e7-0d7ffa932493" />
 
 # 📗 API Documentation
 
